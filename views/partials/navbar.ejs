@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top fixed-top">
+    <a class="navbar-brand" href="/" style="font-weight: 700;
+    font-size: 24px;"> <span style="color: red;" >Daily News</span> Network</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse searc-bar" id="navbarSupportedContent">
+
+        <form class="form-inline my-2 my-lg-0" action="/search" method="POST">
+            <div class="input-group">
+                <input class="form-control" name="search" type="search" placeholder="Search news..." 
+                    aria-label="Search" style="width: 400px;">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-danger" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="dropdown">
+        <button type="button" class="btn dropdown-toggle btn-outline-danger my-2 my-sm-0" data-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-list"></i> Categories
+        </button>
+                 <div class="dropdown-menu">
+           <a class="dropdown-item" href="/news/general"><i class="fas fa-newspaper"></i> General</a>
+           <a class="dropdown-item" href="/news/business"><i class="fas fa-briefcase"></i> Business</a>
+           <a class="dropdown-item" href="/news/technology"><i class="fas fa-microchip"></i> Technology</a>
+           <a class="dropdown-item" href="/news/sports"><i class="fas fa-futbol"></i> Sports</a>
+           <a class="dropdown-item" href="/news/entertainment"><i class="fas fa-film"></i> Entertainment</a>
+           <a class="dropdown-item" href="/news/health"><i class="fas fa-heartbeat"></i> Health</a>
+           <a class="dropdown-item" href="/news/science"><i class="fas fa-flask"></i> Science</a>
+           <hr class="dropdown-divider">
+           <a class="dropdown-item" href="/news/politics"><i class="fas fa-landmark"></i> Politics</a>
+           <a class="dropdown-item" href="/news/world"><i class="fas fa-globe"></i> World</a>
+           <a class="dropdown-item" href="/news/economy"><i class="fas fa-chart-line"></i> Economy</a>
+           <a class="dropdown-item" href="/news/education"><i class="fas fa-graduation-cap"></i> Education</a>
+           <a class="dropdown-item" href="/news/environment"><i class="fas fa-leaf"></i> Environment</a>
+           <a class="dropdown-item" href="/news/fashion"><i class="fas fa-tshirt"></i> Fashion</a>
+           <a class="dropdown-item" href="/news/food"><i class="fas fa-utensils"></i> Food</a>
+           <a class="dropdown-item" href="/news/travel"><i class="fas fa-plane"></i> Travel</a>
+           <a class="dropdown-item" href="/news/automotive"><i class="fas fa-car"></i> Automotive</a>
+           <a class="dropdown-item" href="/news/real-estate"><i class="fas fa-home"></i> Real Estate</a>
+         </div>
+      </div>
+</nav>
